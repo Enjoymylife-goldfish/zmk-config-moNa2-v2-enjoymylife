@@ -57,8 +57,8 @@
         //invert-x; //COROPIT版ではコメントアウトを外す
         //invert-y; //COROPIT版ではコメントアウトを外す
         evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_Y>;   //YとXを入れ替え
-        y-input-code = <INPUT_REL_X>;   //YとXを入れ替え
+        x-input-code = <INPUT_REL_X>;   
+        y-input-code = <INPUT_REL_Y>;   
     };
 };
 
