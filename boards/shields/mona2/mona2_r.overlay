@@ -68,6 +68,10 @@
     status = "okay";
     device = <&trackball_central>;
 
+    input-processors =                                          // ← 追加
+        <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,           // ← XY入れ替え
+        <&zip_temp_layer 5 500>;                               // ← オートマウス
+
     scroller {
         layers = <3>;
         input-processors = 
