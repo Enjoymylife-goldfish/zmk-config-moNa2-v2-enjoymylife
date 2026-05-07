@@ -28,7 +28,7 @@ layers:
   - V
   - /
   - {t: '@', h: '4'}
-  - F15
+  - LANGUAGE 2
   - G
   - D
   - M
@@ -39,10 +39,10 @@ layers:
   - LEFT ALT
   - LEFT SHIFT
   - {t: TAB, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '6'}
+  - {t: '&to_layer_0 RET', h: '6'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: SPACE, h: '1'}
-  - LEFT ALT
+  - ESCAPE
   '1':
   - {t: ▽, type: trans}
   - '9'
