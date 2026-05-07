@@ -2,81 +2,81 @@ layout: {zmk_keyboard: mona2}
 layers:
   default:
   - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - F13
-  - H
-  - J
-  - K
   - L
-  - ;
+  - U
+  - .
+  - '-'
+  - F
+  - R
+  - Y
+  - W
+  - P
+  - O
+  - I
+  - E
+  - A
+  - ','
+  - F13
+  - K
+  - T
+  - N
+  - S
+  - H
   - Z
   - X
   - C
   - V
-  - B
-  - F14
-  - F15
-  - N
-  - M
-  - ','
-  - .
   - /
+  - {t: '@', h: '4'}
+  - F15
+  - G
+  - D
+  - M
+  - J
+  - B
   - LCTRL
   - LEFT WIN
-  - LSHIFT
-  - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - LEFT ALT
+  - LEFT SHIFT
+  - {t: TAB, h: '2'}
+  - {t: '&to_layer_0 LANG2', h: '6'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: SPACE, h: '1'}
   - LEFT ALT
   '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
+  - {t: ▽, type: trans}
   - '9'
-  - '0'
+  - '8'
+  - '7'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
+  - '-'
   - (
   - )
   - {t: ▽, type: trans}
-  - \
+  - '6'
+  - '5'
+  - '4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '*'
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '3'
+  - '2'
+  - '1'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -92,34 +92,34 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
-  - '&'
-  - '*'
+  - '['
+  - ']'
+  - '9'
   - '-'
-  - _
+  - .
   - '`'
   - '~'
   - '"'
   - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - '4'
+  - '5'
+  - '6'
   - '='
   - +
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F11
-  - F12
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - ^
+  - '&'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '*'
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,8 +168,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
@@ -199,7 +199,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
@@ -297,7 +297,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
