@@ -39,9 +39,9 @@ layers:
   - LEFT ALT
   - LEFT SHIFT
   - {t: TAB, h: '2'}
-  - {t: '&to_layer_0 RET', h: '6'}
+  - {t: '&to_layer_0 SPACE', h: '6'}
   - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
+  - {t: RET, h: '1'}
   - ESCAPE
   '1':
   - {t: ▽, type: trans}
