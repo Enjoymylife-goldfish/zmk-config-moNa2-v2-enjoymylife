@@ -39,8 +39,8 @@ layers:
   - LEFT ALT
   - LEFT SHIFT
   - {t: TAB, h: '2'}
-  - {t: '&to_layer_0 SPACE', h: '6'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
+  - {t: '&to_layer_0 SPACE', h: '3'}
+  - {t: '&to_layer_0 LANG1', h: '6'}
   - {t: RET, h: '1'}
   - ESCAPE
   '1':
@@ -49,7 +49,7 @@ layers:
   - '8'
   - '7'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $
   - +
   - '-'
   - (
@@ -60,7 +60,7 @@ layers:
   - '4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '%'
   - '*'
   - /
   - {t: ▽, type: trans}
@@ -87,39 +87,39 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   '2':
-  - '!'
+  - {t: ▽, type: trans}
   - '@'
   - '#'
   - $
   - '%'
   - '['
   - ']'
-  - '9'
-  - '-'
+  - <
+  - '>'
   - .
   - '`'
   - '~'
-  - '"'
-  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - '='
   - +
-  - ^
+  - {t: ▽, type: trans}
+  - (
+  - )
+  - ''''
+  - '!'
   - '&'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - '*'
+  - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - /
+  - \
+  - '?'
+  - '"'
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,8 +168,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
@@ -297,8 +297,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
